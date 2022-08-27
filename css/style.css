@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600;900&family=Roboto+Serif:opsz,wght@8..144,400;8..144,700;8..144,900&display=swap');
+
+/*font-family: 'Inknut Antiqua', serif;
+font-family: 'Roboto Serif', serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.logo {
+    display: inline;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, hsla(196, 38%, 92%, 1) 0%, hsla(216, 80%, 76%, 1) 48%, rgb(46, 94, 170) 100%);
+    justify-content: space-between;
+    top: 0;
+    align-items: center;
+
+}
+
+.header a:hover {
+    color: rgb(60, 233, 44);
+    font-weight: bold;
+  }
+
+.btn-outline-success {
+    --bs-btn-color: #ffffff !important;
+    --bs-btn-border-color: white !important;
+    --bs-btn-hover-bg: rgb(60, 233, 44) !important;
+    
+}
+
+a:hover {
+    color: rgb(60, 233, 44);
+}
+
+
+.titulo-html {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgb(60, 233, 44);
+
+}
+
+
+.imagen-fondo {
+    display: flex;
+    margin: 0;
+    background-image: url(../img/galeria/encabezado.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    flex-direction: column;
+
+
+}
+
+.banner{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    flex-direction: column;
+    border: white 2px solid;
+}
+.banner iframe {
+    margin: 0px;
+    padding:0px;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+
+h2 {
+
+    align-items: center;
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+    font-size: 30px;
+    font-weight: 400px;
+
+}
+
+
+.texto-introductorio {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto;
+    color: white;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #80808073;
+}
+
+
+#fotos-index .col-lg4 {
+    margin: 0 !important;
+    padding:25px;
+    }
+    
+    #fotos-index img{
+        width: 300px;
+    
+    }
+    #fotos-index img:hover{
+        border:5px solid white;
+    
+}
+
+section{
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.row img{
+    align-items: center;
+    margin:10px;
+
+}
+
+.colorfooter{
+    background: linear-gradient(90deg, hsla(196, 38%, 92%, 1) 0%, hsla(216, 80%, 76%, 1) 48%, rgb(46, 94, 170) 100%);
+}
+.color-texto-footer{
+    color: rgb(60, 233, 44);
+    font-size: 15px;
+}
+
+
+h3 {
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: Inknut;
+}
+
+.tituloMapa {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    flex-direction:column;
+    justify-content: space-between;
+    border: white 4px solid;
+    border-radius: 5%;
+}
+
+.tituloMapa h3{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+h4 {
+    display: inline;
+    color: white;
+    font-size: 16px;
+    font-weight: 100px;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+
+.formulario {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: white;
+    font-weight: bold;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: row;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.formulario h3 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-family: Roboto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.formulario h4 {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.items-formulario {
+    display: inline;
+    margin: 30px;
+    padding: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    border: white 3px solid;
+    border-radius: 10px;
+    background-color: #808080a6;
+    box-shadow: inset 1px 1px 20px 4px;
+
+}
+
+.appFlobi {
+    display: flex;
+
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: white 4px solid;
+    text-align: center;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.appFlobi img {
+    border: white 2px solid;
+
+}
+
+.appFlobi h4 {
+    font-size: 20px;
+}
+
+.galeriaVideos {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    border: white 2px solid;
+    background-color: rgba(211, 211, 211, 0.295);
+}
+
+.galeriaVideos iframe {
+    margin-bottom: 30px;
+    padding:0px;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.galeriaFotos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.galeriaFotos img {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    border: white 4px solid;
+    overflow: hidden;
+}
+
+
+ /*Tabla*/
+ .etapas{
+    display: flex;
+    flex-direction: column;
+ }
+ .container-fluid {
+    width: 50%;
+    text-align: center;
+    opacity: 0.9;
+ }  
+
+
+ .encabezado-etapa {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+ }
+
+.grid-container {
+    max-width: 850px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+
+}
+
+.grid-container img {
+    height: 250px;
+    border-radius: 10px;
+    border: white 3px solid;
+}
+
+@media(max-width:1065px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:750px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .encabezado-etapa {
+        
+        font-size: 15px;
+        
+     }
+}
+
+@media(max-width:634px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .texto-introductorio {
+        font-size: 12px;
+    }
+
+    .imgIzq {
+        display: flex;
+        height: 150px;
+        width: 150px;
+        border: white 2px solid;
+
+    }
+
+    .imgDer {
+        display: flex;
+        height: 150px;
+        width: 150px;
+        border: white 2px solid;
+
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:520px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media(max-width:335px) {
+    .banner iframe {
+            overflow: hidden;
+            width: 100%;
+            height: 150px;
+        }
+    
+        .encabezado-etapa {
+        
+            font-size: 10px;
+            
+         }
+    
+    
+}
