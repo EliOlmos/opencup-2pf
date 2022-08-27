@@ -339,7 +339,40 @@ h4 {
     height: 250px;
     border-radius: 10px;
     border: white 3px solid;
+
 }
+
+.grid-container-sponsors {
+    max-width: 100%;
+    margin-bottom: 30px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+    background-color: rgba(211, 211, 211, 0.438);
+}
+
+.grid-container-sponsors img {
+    height: 300px;
+    border-radius: 10px;
+    border: white 3px solid;
+    align-items: center;
+}
+
+.carousel-caption {
+    position: unset !important;
+}
+
+.carousel-caption h3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
 
 @media(max-width:1065px) {
     .header {
