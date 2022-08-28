@@ -32,13 +32,13 @@ font-family: 'Roboto Serif', serif;*/
 .header a:hover {
     color: rgb(60, 233, 44);
     font-weight: bold;
-  }
+}
 
 .btn-outline-success {
     --bs-btn-color: #ffffff !important;
     --bs-btn-border-color: white !important;
     --bs-btn-hover-bg: rgb(60, 233, 44) !important;
-    
+
 }
 
 a:hover {
@@ -47,6 +47,7 @@ a:hover {
 
 
 .titulo-html {
+    margin: 10px;
     text-align: center;
     font-size: 20px;
     font-weight: 400px;
@@ -68,16 +69,17 @@ a:hover {
 
 }
 
-.banner{
+.banner {
     display: flex;
     margin-bottom: 30px;
     align-items: center;
     flex-direction: column;
     border: white 2px solid;
 }
+
 .banner iframe {
     margin: 0px;
-    padding:0px;
+    padding: 0px;
     height: 300px;
     background-size: cover;
     background-attachment: fixed;
@@ -112,42 +114,29 @@ h2 {
 }
 
 
-#fotos-index .col-lg4 {
-    margin: 0 !important;
-    padding:25px;
-    }
-    
-    #fotos-index img{
-        width: 300px;
-    
-    }
-    #fotos-index img:hover{
-        border:5px solid white;
-    
-}
 
-section{
-    margin-bottom: 30px;
-}
-.row{
+.row {
     display: flex;
-
+    margin-bottom: 30px;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
-.row img{
+.row img {
     align-items: center;
-    margin:10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: white 3px solid;
 
 }
 
-.colorfooter{
+.colorfooter {
     background: linear-gradient(90deg, hsla(196, 38%, 92%, 1) 0%, hsla(216, 80%, 76%, 1) 48%, rgb(46, 94, 170) 100%);
 }
-.color-texto-footer{
-    color: rgb(60, 233, 44);
+
+.color-texto-footer {
+    color: white;
     font-size: 15px;
 }
 
@@ -164,17 +153,12 @@ h3 {
 
 .tituloMapa {
     display: flex;
-    margin: 10px;
-    padding: 5px;
     align-items: center;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
-    border: white 4px solid;
-    border-radius: 5%;
-    background-color: lightgrey;
 }
 
-.tituloMapa h3{
+.tituloMapa h3 {
     margin: 5px;
     padding: 5px;
     align-items: center;
@@ -202,7 +186,7 @@ h4 {
     flex-wrap: row;
     flex-direction: column;
     align-items: center;
-    
+
 
 }
 
@@ -227,7 +211,7 @@ h4 {
 }
 
 .items-formulario {
-    display:flex;
+    display: flex;
     align-items: center;
     margin: 30px;
     padding: 30px;
@@ -242,10 +226,10 @@ h4 {
 
 }
 
-input{
-    background-color:rgba(60, 233, 44, 0.61);
-    color:white;
-    border:rgba(60, 233, 44, 0.61);
+input {
+    background-color: rgba(60, 233, 44, 0.61);
+    color: white;
+    border: rgba(60, 233, 44, 0.61);
     padding: 5px;
 
 }
@@ -283,7 +267,7 @@ input{
 
 .galeriaVideos iframe {
     margin-bottom: 30px;
-    padding:0px;
+    padding: 0px;
     height: 300px;
     background-size: cover;
     background-attachment: fixed;
@@ -311,19 +295,20 @@ input{
 }
 
 
- /*Tabla*/
- .etapas{
+/*Tabla*/
+.etapas {
     display: flex;
     flex-direction: column;
- }
- .container-fluid {
+}
+
+.container-fluid {
     width: 50%;
     text-align: center;
     opacity: 0.9;
- }  
+}
 
 
- .encabezado-etapa {
+.encabezado-etapa {
     display: flex;
     color: white;
     font-size: 20px;
@@ -331,7 +316,7 @@ input{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
- }
+}
 
 .grid-container {
     max-width: 850px;
@@ -402,10 +387,10 @@ input{
     }
 
     .encabezado-etapa {
-        
+
         font-size: 15px;
-        
-     }
+
+    }
 }
 
 @media(max-width:634px) {
@@ -451,18 +436,19 @@ input{
 
 @media(max-width:335px) {
     .banner iframe {
-            overflow: hidden;
-            width: 100%;
-            height: 150px;
-        }
-    
-        .encabezado-etapa {
-        
-            font-size: 10px;
-            
-         }
-    .formulario h3{
-        font-size:14px;
+        overflow: hidden;
+        width: 100%;
+        height: 150px;
+    }
+
+    .encabezado-etapa {
+
+        font-size: 10px;
+
+    }
+
+    .formulario h3 {
+        font-size: 14px;
     }
 
     .items-formulario {
@@ -479,11 +465,12 @@ input{
         box-shadow: inset 1px 1px 20px 4px;
         flex-direction: column;
     }
+
     .formulario h4 {
         font-size: 12px;
         margin-right: 30px;
     }
-    
-    
-    
+
+
+
 }
