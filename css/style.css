@@ -192,7 +192,7 @@ h4 {
 
 input:focus{
     border-radius: 10px;
-    background-color: black;
+    background-color: #808080e1;
     color: white;
     transition: 0.8s;
     font-weight: bold;
@@ -200,7 +200,7 @@ input:focus{
 
 select:focus{
 border-radius: 10px;
-    background-color:black;
+    background-color:#808080e1;
     color:white;
     transition: 0.8s;
     font-weight: bold;
@@ -208,7 +208,7 @@ border-radius: 10px;
 
 textarea:focus{
 border-radius: 10px;
-    background-color: black;
+    background-color: #808080e1;
     color: white;
     transition: 0.8s;
     font-weight: bold;
@@ -238,8 +238,8 @@ border-radius: 10px;
 .items-formulario {
     display: flex;
     align-items: center;
-    margin: 30px;
-    padding: 30px;
+    margin: 10px;
+    padding: 10px;
     font-family: Roboto;
     font-weight: bold;
     color: white;
@@ -575,7 +575,7 @@ border-radius: 10px;
 
 }
 
-@media(max-width:335px) {
+@media(max-width:375px) {
     .banner iframe {
         overflow: hidden;
         width: 100%;
