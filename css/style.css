@@ -9,6 +9,8 @@ font-family: 'Roboto Serif', serif;*/
     font-family: 'Inknut Antiqua', serif;
 }
 
+/*header*/
+
 .logo {
     display: inline;
     align-items: center;
@@ -45,7 +47,7 @@ a:hover {
     color: rgb(60, 233, 44);
 }
 
-
+/*main de mis html*/
 .titulo-html {
     margin: 10px;
     text-align: center;
@@ -67,7 +69,7 @@ a:hover {
     flex-direction: column;
 
 
-}
+} /*index*/
 
 .banner {
     display: flex;
@@ -162,6 +164,7 @@ h2 {
     flex-direction: column;
 
 }
+/*footer*/
 
 .colorfooter {
 
@@ -211,6 +214,18 @@ h4 {
     margin-right: 30px;
 
 }
+
+.fa-instagram::before {
+   color:white;
+   width: 10px;
+   height:10px;
+
+}
+
+.fa-whatsapp::before {
+    color: white;
+}
+/*Contacto*/
 
 .formulario {
     margin: 0;
@@ -309,70 +324,9 @@ border-radius: 10px;
 
 .appFlobi h4 {
     font-size: 20px;
-}
+} 
 
-.galeriaVideos {
-    display: flex;
-    margin-top: 30px;
-    align-items: center;
-    flex-direction: column;
-    border: white 2px solid;
-    background-color: rgba(211, 211, 211, 0.295);
-}
-
-.galeriaVideos iframe {
-    margin-bottom: 30px;
-    padding: 0px;
-    height: 300px;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.galeriaFotos {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    align-items: center;
-    justify-content: space-evenly;
-
-}
-
-.galeriaFotos img {
-    display: inline;
-    margin: 10px;
-    padding: 10px;
-    width: 250px;
-    border: white 4px solid;
-    overflow: hidden;
-}
-
-
-/*Tabla*/
-.etapas {
-    display: flex;
-    flex-direction: column;
-}
-
-.container-fluid {
-    width: 50%;
-    text-align: center;
-    opacity: 0.9;
-}
-
-
-.encabezado-etapa {
-    display: flex;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-}
-
+/*Galeria de imagenes y videos*/
 .grid-container-galeria {
     max-width: 850px;
     margin: 0 auto;
@@ -398,6 +352,52 @@ border-radius: 10px;
     transition: 0.3s;
 }
 
+.galeriaVideos {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    border: white 2px solid;
+    background-color: rgba(211, 211, 211, 0.295);
+}
+
+.galeriaVideos iframe {
+    margin-bottom: 30px;
+    padding: 0px;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+/*Tabla*/
+.etapas {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid-tabla {
+    width: 50%;
+    text-align: center;
+    opacity: 0.9;
+}
+
+
+.encabezado-etapa {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/*galeria*/
+
+
+ /*Sponsors*/
 .grid-container-sponsors {
     max-width: 100%;
     margin-bottom: 30px;
