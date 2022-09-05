@@ -641,13 +641,13 @@ border-radius: 10px;
         font-size:10px;
     }
     .grid-container-index img {
-        width: 200px;
-        height:250px;
+        width: 250px;
+        height:270px;
     }
 
     .carousel-item {
         padding: 30px;
-        width: 250px;
+        width: 300px;
     }
     
 
