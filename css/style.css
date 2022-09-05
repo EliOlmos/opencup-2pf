@@ -135,8 +135,7 @@ h2 {
 
 }
 .grid-container-index{
-    max-width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -149,21 +148,29 @@ h2 {
 
 
 .grid-container-index img {
-    height: 300px;
     border-radius: 10px;
+    width: 350px;
+    height:350px;
     border: white 3px solid;
     align-items: center;
 }
 
-.carousel-caption {
-    position: unset !important;
-}
 
 .carousel-caption h3 {
     display: flex;
     flex-direction: column;
 
 }
+
+
+.carousel-item {
+    float: center;
+    padding: 30px;
+    width: 350px;
+    transition: transform .6s ease-in-out;
+}
+
+
 /*footer*/
 
 .colorfooter {
@@ -215,16 +222,23 @@ h4 {
 
 }
 
-.fa-instagram::before {
+.fa-instagram{
    color:white;
-   width: 10px;
-   height:10px;
-
 }
 
-.fa-whatsapp::before {
+.fa-whatsapp{
     color: white;
 }
+
+.fa-instagram:hover{
+    color: rgb(60, 233, 44);
+ }
+
+ .fa-whatsapp:hover{
+    color: rgb(60, 233, 44);
+}
+
+
 /*Contacto*/
 
 .formulario {
@@ -306,8 +320,6 @@ border-radius: 10px;
 
 .appFlobi {
     display: flex;
-
-    margin: 10px;
     padding: 20px;
     align-items: center;
     justify-content: space-between;
@@ -315,6 +327,7 @@ border-radius: 10px;
     text-align: center;
     align-content: flex-start;
     flex-direction: column;
+    max-width:550px;
 }
 
 .appFlobi img {
@@ -375,12 +388,23 @@ border-radius: 10px;
 .etapas {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
 }
 
 .container-fluid-tabla {
-    width: 50%;
+    display:flex;
+    width: 100%;
     text-align: center;
     opacity: 0.9;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tamanio-tabla {
+    max-width: 850px;
 }
 
 
@@ -632,6 +656,12 @@ border-radius: 10px;
        height: 200px;
    }
 
+   .tamanio-tabla {
+    max-width: 450px;
+    font-size: 14px;
+}
+
+
 }
 
 @media(max-width:375px) {
@@ -679,6 +709,11 @@ border-radius: 10px;
         width: 200px;
         height: 200px;
       
+    }
+
+    .tamanio-tabla {
+        max-width: 350px;
+        font-size: 12px;
     }
 
 }
