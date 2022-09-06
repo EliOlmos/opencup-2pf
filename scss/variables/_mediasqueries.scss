@@ -1,0 +1,182 @@
+@media (max-width: 1065px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .footer {
+      flex-direction: column;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 830px) {
+    .row-index img {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .grid-container-galeria {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .grid-container-galeria img {
+      height: 200px;
+    }
+  
+    .encabezado-etapa {
+      font-size: 15px;
+    }
+  
+    .grid-container-sponsors {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .grid-container-sponsors img {
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 634px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .footer {
+      flex-direction: column;
+    }
+  
+    .texto-introductorio {
+      font-size: 12px;
+    }
+  
+    .imgIzq {
+      display: flex;
+      height: 150px;
+      width: 150px;
+      border: white 2px solid;
+    }
+  
+    .imgDer {
+      display: flex;
+      height: 150px;
+      width: 150px;
+      border: white 2px solid;
+    }
+  
+    h2 {
+      font-size: 12px;
+    }
+  
+    .grid-container-index h3 {
+      display: flex;
+      flex-direction: column;
+      font-size: 10px;
+    }
+    .grid-container-index img {
+      width: 250px;
+      height: 280px;
+    }
+  
+    .carousel-item {
+      padding: 30px;
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 520px) {
+    .row-index {
+      flex-direction: column;
+    }
+  
+    .grid-container-galeria {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .grid-container-sponsors {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .grid-container-sponsors img {
+      height: 200px;
+    }
+  
+    .tamanio-tabla {
+      max-width: 450px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .navbar-toggler-iconn {
+      color: rgb(60, 233, 44) !important;
+    }
+  
+    .nav-link {
+      color: rgb(60, 233, 44);
+    }
+  
+    .banner iframe {
+      overflow: hidden;
+      width: 100%;
+      height: 150px;
+    }
+  
+    .encabezado-etapa {
+      font-size: 10px;
+    }
+  
+    .formulario h3 {
+      font-size: 14px;
+    }
+  
+    .items-formulario {
+      display: flex;
+      margin: 5px;
+      padding: 5px;
+      font-family: Roboto;
+      font-weight: bold;
+      color: white;
+      font-size: 12px;
+      border: white 2px solid;
+      border-radius: 5px;
+      background-color: #808080a6;
+      box-shadow: inset 1px 1px 20px 4px;
+      flex-direction: column;
+    }
+  
+    .formulario h4 {
+      font-size: 12px;
+      margin-right: 30px;
+    }
+  
+    .grid-container-sponsors img {
+      height: 150px;
+    }
+  
+    .galeriaVideos iframe {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .tamanio-tabla {
+      max-width: 350px;
+      font-size: 12px;
+    }
+  
+    .imgIzq {
+      display: flex;
+      height: 150px;
+      width: 100px;
+      border: white 2px solid;
+    }
+  
+    .imgDer {
+      display: flex;
+      height: 150px;
+      width: 100px;
+      border: white 2px solid;
+    }
+  }

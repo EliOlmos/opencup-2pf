@@ -1,0 +1,34 @@
+.grid-container-galeria {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px;
+ @include flex-grid-center;
+  img {
+    margin: 10px;
+    height: 250px;
+    border-radius: 10px;
+    border: white 3px solid;
+    &hover {
+      transform: scale(1.2, 1.2);
+      transition: 0.3s;
+    }
+  }
+}
+
+.galeriaVideos {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    border: white 2px solid;
+    background-color: rgba(211, 211, 211, 0.295);
+    iframe {
+        margin-bottom: 30px;
+        padding: 0px;
+        height: 300px;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      
+  }

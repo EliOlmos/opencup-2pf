@@ -1,0 +1,86 @@
+//Formulario de contacto//
+.formulario {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: white;
+  font-weight: bold;
+  justify-content: center;
+  align-content: flex-end;
+  flex-wrap: row;
+  flex-direction: column;
+  align-items: center;
+  input:focus {
+    border-radius: 10px;
+    background-color: #808080e1;
+    color: white;
+    transition: 0.8s;
+    font-weight: bold;
+  }
+  select:focus {
+    border-radius: 10px;
+    background-color: #808080e1;
+    color: white;
+    transition: 0.8s;
+    font-weight: bold;
+  }
+  textarea:focus {
+    border-radius: 10px;
+    background-color: #808080e1;
+    color: white;
+    transition: 0.8s;
+    font-weight: bold;
+  }
+  h3 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-family: Roboto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+  }
+  h4 {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+  .items-formulario {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    border: white 3px solid;
+    border-radius: 10px;
+    background-color: #808080a6;
+    box-shadow: inset 1px 1px 20px 4px;
+  }
+}
+
+.appFlobi {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border: white 4px solid;
+  text-align: center;
+  align-content: flex-start;
+  flex-direction: column;
+  max-width: 550px;
+  img {
+    border: white 2px solid;
+  }
+  h4 {
+    font-size: 20px;
+    color: white;
+  }
+}

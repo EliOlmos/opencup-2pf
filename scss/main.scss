@@ -1,0 +1,131 @@
+//Estilos generales//
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./variables/_variables";
+
+@import "./variables/_tipografia";
+
+@import "./secciones/_sponsors";
+
+@import "./secciones/_index";
+
+@import "./secciones/_galeria";
+
+@import "./secciones/_etapas";
+
+@import "./secciones/_contacto";
+
+@import './variables/mediasqueries';
+
+
+
+//HEADER//
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: $azulado;
+  justify-content: space-between;
+  top: 0;
+  align-items: center;
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      height: 100px;
+      margin: 20px;
+    }
+  }
+  a:hover {
+    color: $verde;
+    font-weight: bold;
+  }
+
+  
+.btn-outline-success {
+  --bs-btn-color: #ffffff !important;
+  --bs-btn-border-color: white !important;
+  --bs-btn-hover-bg: $verde !important;
+}
+
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28060, 233, 044, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    border: 1px solid $verde;
+  }
+  .navbar-toggler {
+    border: 1px solid $verde;
+  }
+}
+a:hover {
+  color: $verde;
+}
+//main de todos mis html//
+main {
+  .imagen-fondo {
+    @extend %estiloImagenFondo;
+  }
+  .titulo-html {
+    @extend %tituloPaginas;
+  }
+}
+
+//FOOTER//
+
+.colorfooter {
+  background-image: $azulado;
+}
+
+.color-texto-footer {
+  color: white;
+  font-size: 16px;
+}
+
+.row {
+  align-items: center;
+  h3 {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Inknut;
+  }
+}
+
+  .tituloMapa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    h3 {
+      margin: 5px;
+      padding: 5px;
+      align-items: center;
+      font-weight: bold;
+    }
+  }
+  ul {
+    list-style: none;
+
+    .fa-instagram {
+      color: white;
+    }
+    .fa-instagram:hover {
+      color: $verde;
+    }
+
+    .fa-whatsapp {
+      color: white;
+    }
+    .fa-whatsapp:hover {
+      color: $verde;
+    }
+  }
+
