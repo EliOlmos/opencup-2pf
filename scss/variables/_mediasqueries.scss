@@ -14,7 +14,7 @@
   
   @media (max-width: 830px) {
     .row-index img {
-      width: 200px;
+
       height: 200px;
     }
   
@@ -111,11 +111,11 @@
   
   @media (max-width: 375px) {
     .navbar-toggler-iconn {
-      color: rgb(60, 233, 44) !important;
+      color: $verde !important;
     }
   
     .nav-link {
-      color: rgb(60, 233, 44);
+      color:$verde;
     }
   
     .banner iframe {

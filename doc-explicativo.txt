@@ -1,9 +1,5 @@
+//Enlace al texto explicativo docs//
 
-OpenCup Torneo de tenis Olmos González María Elizabeth
-*He aplicado en mis html las etiquetas meta con la descripción de mi página además de la keywords debajo del Title
-*También he aplica Mixin en Sponsors y Galeria
-*Aplico Extend en la imagen de fondo de mis html y también en el encabezado de mi index
-*Utilicé variables en los colores en común en mis estilos
-
+https://docs.google.com/document/d/1bWUbJjoO6xHvw7zh_FVBTIE5RyB0qaqDQZVTS3-gOro/edit?usp=sharing
 
 
