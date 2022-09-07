@@ -291,7 +291,7 @@ h2 {
   .footer {
     flex-direction: column; }
   .texto-introductorio {
-    font-size: 12px; }
+    font-size: 13px; }
   .imgIzq {
     display: flex;
     height: 150px;
@@ -307,7 +307,7 @@ h2 {
   .grid-container-index h3 {
     display: flex;
     flex-direction: column;
-    font-size: 10px; }
+    font-size: 13px; }
   .grid-container-index img {
     width: 250px;
     height: 280px; }
