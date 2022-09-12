@@ -1,7 +1,9 @@
 .grid-container-sponsors {
-    max-width: 100%;
-    margin-bottom: 30px;
-    @include flex-grid-center;
-    background-color: rgba(211, 211, 211, 0.438);
+  max-width: 100%;
+  margin-bottom: 30px;
+  @include flex-grid-center;
+  img {
+    border: 2px solid white;
+    border-radius: 10px;
   }
-
+}
