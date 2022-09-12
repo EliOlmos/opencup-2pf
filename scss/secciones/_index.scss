@@ -23,7 +23,7 @@ h2 {
   font-size: 30px;
   font-weight: 400px;
 }
-.texto-introductorio{
+.texto-introductorio {
   display: flex;
   margin-bottom: 30px;
   align-items: center;
@@ -31,10 +31,14 @@ h2 {
   font-size: 18px;
   font-family: Roboto;
   color: white;
+  margin: 5px;
   padding: 20px;
   flex-direction: column;
   background-color: #80808073;
-  }
+  border-radius: 10px;
+  background-color: #808080a6;
+  box-shadow: inset 1px 1px 20px 4px;
+}
 
 .row-index {
   display: flex;
@@ -72,28 +76,33 @@ h2 {
   display: flex;
   flex-direction: column;
   font-weight: bold;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #808080a6;
+  box-shadow: inset 1px 1px 20px 4px;
 }
 .animate-charcter {
-    text-transform: uppercase;
-    background-image: linear-gradient(
-      -225deg,
-      #1c0474 0%,
-      #388dc5 29%,
-      hsl(199, 100%, 54%) 67%,
-      #d5effc 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear infinite;
-    display: inline-block;
-    font-size: 30px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    $verde 0%,
+    rgb(42, 218, 26) 29%,
+    rgb(40, 230, 78) 67%,
+    #d5effc 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 30px;
 }
-
 
 .carousel-item {
   float: center;
