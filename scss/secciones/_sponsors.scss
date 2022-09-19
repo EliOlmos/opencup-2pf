@@ -1,9 +1,50 @@
 .grid-container-sponsors {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 100%;
+  margin-top: 30px;
   margin-bottom: 30px;
   @include flex-grid-center;
   img {
+    object-fit: contain;
     border: 2px solid white;
     border-radius: 10px;
+  }
+  .card {
+    padding: 20px;
+    height: 20rem;
+    align-items: center;
+    --bs-card-bg: rgba(46, 43, 43, 0.645);
+    --bs-card-border-color: white;
+    border-radius: 10px;
+    &:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 300ms;
+    }
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+    }
+    .card-img,
+    .card-img-bottom,
+    .card-img-top {
+      max-height: 165px;
+      img {
+        object-fit: cover;
+      }
+    }
+    .btn-primary {
+      --bs-btn-bg: rgb(60, 233, 44);
+      --bs-btn-border-color: rgb(60, 233, 44);
+      font-weight: bold;
+      &:hover {
+        color: rgb(60, 233, 44);
+        background-color: white;
+        border-color: rgb(60, 233, 44);
+      }
+    }
   }
 }

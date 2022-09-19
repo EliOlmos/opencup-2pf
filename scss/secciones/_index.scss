@@ -5,11 +5,13 @@
   margin-bottom: 30px;
   align-items: center;
   flex-direction: column;
-  border: white 2px solid;
+
+
   iframe {
     margin: 0px;
+    border: white 3px solid;
     padding: 0px;
-    height: 300px;
+    height: 350px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -25,66 +27,58 @@ h2 {
 }
 .texto-introductorio {
   display: flex;
-  margin-bottom: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 700px;
   align-items: center;
   text-align: center;
   font-size: 18px;
   font-family: Roboto;
   color: white;
-  margin: 5px;
-  padding: 20px;
   flex-direction: column;
-  background-color: #80808073;
   border-radius: 10px;
   background-color: #808080a6;
   box-shadow: inset 1px 1px 20px 4px;
+
 }
 
-.row-index {
-  display: flex;
-  margin-bottom: 30px;
-  align-items: center;
-  flex-direction: row;
-  img {
-    align-items: center;
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border-radius: 10px;
-    border: white 3px solid;
-  }
-}
 .grid-container-index {
+  margin-top: 40px;
   margin-bottom: 40px;
   display: grid;
+  margin: 0 auto;
+  max-width: 400px;
   align-items: center;
   justify-items: center;
   justify-content: center;
   grid-template-columns: repeat(1, 1fr);
   grid-row-gap: 10px;
-  background-color: rgba(211, 211, 211, 0.438);
   color: white;
+
   img {
     border-radius: 10px;
     width: 400px;
     height: 450px;
     border: white 3px solid;
     align-items: center;
+
   }
 }
 .titulo-carrusel {
   display: flex;
   flex-direction: column;
   font-weight: bold;
-  border: 2px solid white;
+  border: 3px solid white;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
+  color: white;
   background-color: #808080a6;
   box-shadow: inset 1px 1px 20px 4px;
 }
 .animate-charcter {
   text-transform: uppercase;
+  font-weight: bold;
   background-image: linear-gradient(
     -225deg,
     $verde 0%,
@@ -95,13 +89,13 @@ h2 {
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
+  color: white;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .carousel-item {

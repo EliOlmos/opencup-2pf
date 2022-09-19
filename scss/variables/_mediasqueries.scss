@@ -34,7 +34,8 @@
   }
 
   .grid-container-sponsors img {
-    height: 200px;
+   width: 150px;
+
   }
 }
 
@@ -94,9 +95,6 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .grid-container-sponsors img {
-    height: 200px;
-  }
 
   .tamanio-tabla {
     max-width: 450px;
@@ -147,9 +145,7 @@
     margin-right: 30px;
   }
 
-  .grid-container-sponsors img {
-    height: 150px;
-  }
+
 
   .galeriaVideos iframe {
     width: 200px;
