@@ -1,7 +1,5 @@
 @media (max-width: 1065px) {
-  .header {
-    flex-direction: column;
-  }
+
 
   .footer {
     flex-direction: column;
@@ -40,9 +38,7 @@
 }
 
 @media (max-width: 634px) {
-  .header {
-    flex-direction: column;
-  }
+
 
   .footer {
     flex-direction: column;
@@ -103,6 +99,10 @@
 }
 
 @media (max-width: 375px) {
+  .logo img{
+    width: 100px;
+    height: 50px;
+  }
   .navbar-toggler-iconn {
     color: $verde !important;
   }

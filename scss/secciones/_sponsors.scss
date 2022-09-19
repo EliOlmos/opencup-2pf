@@ -37,13 +37,13 @@
       }
     }
     .btn-primary {
-      --bs-btn-bg: rgb(60, 233, 44);
-      --bs-btn-border-color: rgb(60, 233, 44);
+      --bs-btn-bg: rgb(128,185,24);
+      --bs-btn-border-color: rgb(128,185,24);
       font-weight: bold;
       &:hover {
-        color: rgb(60, 233, 44);
+        color:rgb(128,185,24);
         background-color: white;
-        border-color: rgb(60, 233, 44);
+        border-color:rgb(128,185,24);
       }
     }
   }
