@@ -26,14 +26,14 @@
   display: flex;
   flex-wrap: wrap;
   background-image: $azulado;
-  width:100%;
+  width: 100%;
   justify-content: space-between;
-  height: 90px;
+  height: auto;
   top: 0;
-  left:0;
+  left: 0;
   position: fixed;
   align-items: center;
-  z-index:100;
+  z-index: 100;
   .logo {
     display: flex;
     align-items: center;
@@ -51,17 +51,17 @@
     --bs-btn-color: #ffffff !important;
     --bs-btn-border-color: white !important;
     --bs-btn-hover-bg: $verde !important;
-    &:hover{
-    font-weight: bold;
-    border:2px solid $verde;
-    border-color: $verde;
-    border-radius: 5px;
-    background-color: $verde;
+    &:hover {
+      font-weight: bold;
+      border: 2px solid $verde;
+      border-color: $verde;
+      border-radius: 5px;
+      background-color: $verde;
     }
   }
-  .nav-link :hover{
+  .nav-link :hover {
     font-weight: bold;
-    border:2px solid $verde;
+    border: 2px solid $verde;
     border-color: $verde;
     border-radius: 5px;
     background-color: $verde;
@@ -69,7 +69,7 @@
   a.nav-link:hover {
     color: white;
     font-weight: bold;
-    border:2px solid $verde;
+    border: 2px solid $verde;
     border-color: $verde;
     border-radius: 5px;
     background-color: $verde;
@@ -79,7 +79,7 @@
   }
   .navbar-toggler .navbar-toggler-icon {
     border: 2px solid $verde;
-    border-radius:50px;
+    border-radius: 50px;
   }
   .navbar-toggler {
     border: none;
@@ -87,9 +87,9 @@
   .navbar-toggler button {
     border: none;
   }
-  .d-flex input:hover{
+  .d-flex input:hover {
     font-weight: bold;
-    border:2px solid $verde;
+    border: 2px solid $verde;
     border-color: $verde;
     border-radius: 5px;
     background-color: $verde;
@@ -105,7 +105,7 @@ main {
   .titulo-html {
     @extend %tituloPaginas;
   }
-  .sub-titulo-html{
+  .sub-titulo-html {
     align-items: center;
     text-align: center;
     font-family: Roboto;
