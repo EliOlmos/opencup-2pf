@@ -28,6 +28,7 @@
   @include flex-grid-center;
   img {
     margin: 10px;
+    object-fit: contain;
     height: 250px;
     border-radius: 10px;
     border: white 3px solid;

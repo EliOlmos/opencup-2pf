@@ -6,7 +6,6 @@
   align-items: center;
   flex-direction: column;
 
-
   iframe {
     margin: 0px;
     border: white 3px solid;
@@ -39,7 +38,6 @@ h2 {
   border-radius: 10px;
   background-color: #808080a6;
   box-shadow: inset 1px 1px 20px 4px;
-
 }
 
 .grid-container-index {
@@ -54,7 +52,6 @@ h2 {
   grid-template-columns: repeat(1, 1fr);
   grid-row-gap: 10px;
   color: white;
-
 }
 .titulo-carrusel {
   display: flex;
@@ -101,11 +98,6 @@ h2 {
     height: 450px;
     border: white 3px solid;
     align-items: center;
-    object-fit:contain;
-
+    object-fit: contain;
   }
-  .carousel-control-prev-icon svg {
-    fill: rgb(128,185,24) !important;
-    }
-    }
-
+}
