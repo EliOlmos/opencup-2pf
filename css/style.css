@@ -393,8 +393,6 @@ h2 {
     width: 300px; } }
 
 @media (max-width: 520px) {
-  .grid-container-galeria {
-    display: none; }
   .formulario {
     width: 300px; }
     .formulario .items-formulario {
@@ -442,6 +440,10 @@ h2 {
     font-size: 10px; }
   .formulario h3 {
     font-size: 14px; }
+  .grid-container-galeria {
+    grid-template-columns: repeat(1, 1fr); }
+  .grid-container-galeria img {
+    height: 200px; }
   .galeriaVideos iframe {
     width: 200px;
     height: 200px; }
