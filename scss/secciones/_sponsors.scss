@@ -23,10 +23,13 @@
     }
     .card-body {
       display: flex;
+      margin:0 auto;
       flex-direction: column;
       align-items: center;
       color: white;
       font-weight: bold;
+      text-align: center;
+      font-size: 12px;
     }
     .card-img,
     .card-img-bottom,
@@ -37,13 +40,14 @@
       }
     }
     .btn-primary {
-      --bs-btn-bg: rgb(128,185,24);
-      --bs-btn-border-color: rgb(128,185,24);
+      --bs-btn-bg: rgb(154,195,57);
+      --bs-btn-border-color: rgb(154,195,57);
       font-weight: bold;
+      font-size: 12px;
       &:hover {
-        color:rgb(128,185,24);
+        color:$verde;
         background-color: white;
-        border-color:rgb(128,185,24);
+        border-color:$verde;
       }
     }
   }

@@ -41,8 +41,8 @@ h2 {
 }
 
 .grid-container-index {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: grid;
   margin: 0 auto;
   max-width: 400px;
@@ -57,35 +57,15 @@ h2 {
   display: flex;
   flex-direction: column;
   font-weight: bold;
-  border: 3px solid white;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
   color: white;
-  background-color: rgba(46, 43, 43, 0.645);
-  box-shadow: inset 1px 1px 20px 10px rgb(187, 179, 179);
+  font-size: 25px;
+  text-align: center;
+  text-shadow:rgb(154,195,57) 0.1em 0.1em 0.2em ;
 }
-.animate-charcter {
-  text-transform: uppercase;
-  font-weight: bold;
-  background-image: linear-gradient(
-    -225deg,
-    $verde 0%,
-    rgb(107, 224, 113) 29%,
-    rgb(66, 234, 74) 67%,
-    #d5effc 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: white;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-  font-size: 20px;
-}
+
 
 .carousel-item {
   float: center;
