@@ -47,10 +47,6 @@
               <a class="nav-link" href="./galeria.html">Galeria</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscá en OpenCup" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -61,12 +57,12 @@
       <div class="formulario">
         <h3><b> Dejanos tus datos</b></h3>
         <div class="items-formulario">
-          <form action="#" method="get">
+          <form action="https://formsubmit.co/torneo.opencup@gmail.com" method="post">
             <label for="Nombre"> Nombre y Apellido</label>
-            <input type="text" name="Nombre y Apellido" required>
+            <input type="text" class="field-input" name="Nombre y Apellido" required>
             <br>
             <label for="Teléfono">Teléfono</label>
-            <input type="Teléfono" name="Teléfono" required>
+            <input type="Teléfono" class="field-input" name="Teléfono" required>
             <br>
             <h4>Seleccione la Categoría</h4>
             
@@ -83,6 +79,10 @@
             <br><br>
             <input class="button"  type="submit" value=" Enviar ">
             <input class="button"  type="reset" value=" Limpiar ">
+
+            <input type="hidden" name="_next" value="https://eliolmos.github.io/opencup-tfinal-olmos/pages/contacto.html">
+            <input type="hidden" name="_captcha" value="false">
+
             <br>
           </form>
         </div>

@@ -2,12 +2,12 @@
 
 $azulado: linear-gradient(
   90deg,
-  hsla(196, 38%, 92%, 1) 0%,
-  hsla(216, 80%, 76%, 1) 48%,
-  rgb(46, 94, 170) 100%
+  rgba(178,189,233,1)  0%,
+  rgba(49, 80, 182, 1) 60%,
+  rgba(34, 48, 109, 1) 100%
 );
 
-$verde: rgb(154,195,57);
+$verde: rgb(154, 195, 57);
 
 //Extend//
 %estiloImagenFondo {

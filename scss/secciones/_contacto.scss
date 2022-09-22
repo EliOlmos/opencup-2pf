@@ -2,6 +2,7 @@
 .formulario {
   margin: 0 auto;
   padding: 0;
+  max-width: 600px;
   display: flex;
   border: white;
   font-weight: bold;
@@ -10,26 +11,47 @@
   flex-wrap: row;
   flex-direction: column;
   align-items: center;
-  input:focus {
-    border-radius: 10px;
-    background-color: #808080e1;
-    color: white;
-    transition: 0.8s;
-    font-weight: bold;
+  form {
+    display: flex;
+    margin:0 auto;
+    max-width: 550px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+  input {
+    display: flex;
+    width: 550px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    &:focus {
+      border-radius: 10px;
+      background-color: #808080e1;
+      color: white;
+      transition: 0.8s;
+      font-weight: bold;
+    }
   }
-  select:focus {
-    border-radius: 10px;
-    background-color: #808080e1;
-    color: white;
-    transition: 0.8s;
-    font-weight: bold;
+  select {
+    border-radius: 5px;
+    &:focus {
+      border-radius: 10px;
+      background-color: #808080e1;
+      color: white;
+      transition: 0.8s;
+      font-weight: bold;
+    }
   }
-  textarea:focus {
-    border-radius: 10px;
-    background-color: #808080e1;
-    color: white;
-    transition: 0.8s;
-    font-weight: bold;
+  textarea {
+    border-radius: 5px;
+    &:focus {
+      border-radius: 10px;
+      background-color: #808080e1;
+      color: white;
+      transition: 0.8s;
+      font-weight: bold;
+    }
   }
   h3 {
     margin: 0;
@@ -56,7 +78,7 @@
     align-items: center;
     margin: 10px;
     padding: 10px;
-    width: 300px;
+    width: 600px;
     font-family: Roboto;
     font-weight: bold;
     color: white;
@@ -66,18 +88,8 @@
     background-color: #808080a6;
     box-shadow: inset 1px 1px 20px 4px;
   }
-  input {
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    padding: 5px;
-  }
-  select {
-    border-radius: 5px;
-  }
-  textarea {
-    border-radius: 5px;
-  }
+  
+
   .button {
     display: flex;
     flex-direction: column;
@@ -92,7 +104,8 @@
     box-shadow: 3px -2px 4px 1px #222121;
     border: none;
   }
-}
+  }
+
 
 .appFlobi {
   display: flex;

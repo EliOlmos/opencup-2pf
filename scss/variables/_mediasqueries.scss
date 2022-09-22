@@ -20,6 +20,31 @@
   .grid-container-galeria img {
     height: 200px;
   }
+  .formulario {
+    width: 300px;
+    .items-formulario {
+      display: flex;
+      margin: 5px;
+      padding: 5px;
+      width: 400px;
+      font-family: Roboto;
+      font-weight: bold;
+      color: white;
+      font-size: 12px;
+      border: white 2px solid;
+      border-radius: 5px;
+      background-color: #808080a6;
+      box-shadow: inset 1px 1px 20px 4px;
+      flex-direction: column;
+    }
+    input {
+      max-width: 300px;
+    }
+    h4 {
+      font-size: 12px;
+      margin-right: 30px;
+    }
+  }
 
   .encabezado-etapa {
     font-size: 15px;
@@ -78,23 +103,13 @@
 }
 
 @media (max-width: 520px) {
-  
   .formulario {
     width: 300px;
     .items-formulario {
-      display: flex;
-      margin: 5px;
-      padding: 5px;
-      width: 250px;
-      font-family: Roboto;
-      font-weight: bold;
-      color: white;
-      font-size: 12px;
-      border: white 2px solid;
-      border-radius: 5px;
-      background-color: #808080a6;
-      box-shadow: inset 1px 1px 20px 4px;
-      flex-direction: column;
+      width: 300px;
+    }
+    input {
+      max-width: 250px;
     }
     h4 {
       font-size: 12px;
@@ -128,14 +143,17 @@
     color: $verde;
   }
 
-main {
-  .titulo-html{
-    font-size: 18px;
+  main {
+    .grid-container-presentacion {
+      grid-template-columns: repeat(1, 1fr);
     }
-  .sub-titulo-html{
-    font-size: 16px !important;
+    .titulo-html {
+      font-size: 18px;
     }
+    .sub-titulo-html {
+      font-size: 16px !important;
     }
+  }
   .banner iframe {
     overflow: hidden;
     width: 100%;
@@ -176,14 +194,17 @@ main {
 }
 
 @media (max-width: 320px) {
-  .formulario{
-    width: 250px;
-  }
-  .items-formulario {
-    width: 220px;
+  .formulario {
+    width: 270px;
+    .items-formulario {
+      width: 250px;
+    }
+    input {
+      max-width: 220px;
+    }
   }
 
-  .galeriaVideos{
+  .galeriaVideos {
     display: none;
   }
 }
