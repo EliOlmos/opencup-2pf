@@ -552,7 +552,7 @@ font-family: 'Roboto Serif', serif;*/
     .grid-container-etapas img:hover {
       position: relative;
       left: 20px;
-      transform: scale(2);
+      transform: scale(1.5);
       transition: 0.5s; }
   .encabezado-etapa {
     font-size: 10px; }
