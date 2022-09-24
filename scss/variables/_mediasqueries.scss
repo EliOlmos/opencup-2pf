@@ -84,6 +84,9 @@
   }
 }
 
+
+
+
 @media (max-width: 634px) {
   .footer {
     flex-direction: column;
@@ -138,6 +141,7 @@
     font-size: 14px;
   }
 }
+
 
 @media (max-width: 420px) {
   .header {
@@ -228,4 +232,13 @@
   .galeriaVideos {
     display: none;
   }
+
+  .grid-container-etapas {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .grid-container-etapas img {
+    width: 150px;
+  }
 }
+

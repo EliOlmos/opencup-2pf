@@ -4,6 +4,7 @@
   max-width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
+
   @include flex-grid-center;
   img {
     object-fit: contain;
@@ -23,7 +24,7 @@
     }
     .card-body {
       display: flex;
-      margin:0 auto;
+      margin: 0 auto;
       flex-direction: column;
       align-items: center;
       color: white;
@@ -39,15 +40,20 @@
         object-fit: cover;
       }
     }
+
+    .card-img{
+      margin-top: 70px !important;
+    }
+
     .btn-primary {
-      --bs-btn-bg: rgb(154,195,57);
-      --bs-btn-border-color: rgb(154,195,57);
+      --bs-btn-bg: rgb(154, 195, 57);
+      --bs-btn-border-color: rgb(154, 195, 57);
       font-weight: bold;
       font-size: 12px;
       &:hover {
-        color:$verde;
+        color: $verde;
         background-color: white;
-        border-color:$verde;
+        border-color: $verde;
       }
     }
   }

@@ -72,9 +72,11 @@ font-family: 'Roboto Serif', serif;*/
       .grid-container-sponsors .card .card-img-bottom img,
       .grid-container-sponsors .card .card-img-top img {
         object-fit: cover; }
+    .grid-container-sponsors .card .card-img {
+      margin-top: 70px !important; }
     .grid-container-sponsors .card .btn-primary {
-      --bs-btn-bg: rgb(154,195,57);
-      --bs-btn-border-color: rgb(154,195,57);
+      --bs-btn-bg: rgb(154, 195, 57);
+      --bs-btn-border-color: rgb(154, 195, 57);
       font-weight: bold;
       font-size: 12px; }
       .grid-container-sponsors .card .btn-primary:hover {
@@ -115,7 +117,7 @@ font-family: 'Roboto Serif', serif;*/
       font-size: 18px;
       margin-bottom: 20px;
       color: white;
-      text-align: center; }
+      text-align: justify; }
 
 .grid-container-presentacion {
   display: grid;
@@ -286,6 +288,27 @@ font-family: 'Roboto Serif', serif;*/
   justify-content: center; }
   .container-fluid-tabla .tamanio-tabla {
     max-width: 850px; }
+
+.grid-container-etapas {
+  margin: 0 auto;
+  padding: 10px;
+  display: grid;
+  max-width: 850px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 10px 0 0 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px; }
+  .grid-container-etapas img {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain; }
+    .grid-container-etapas img:hover {
+      z-index: 2;
+      transform: scale(2.2);
+      transition: 0.5s; }
 
 .formulario {
   margin: 0 auto;
@@ -549,7 +572,11 @@ font-family: 'Roboto Serif', serif;*/
     .formulario input {
       max-width: 220px; }
   .galeriaVideos {
-    display: none; } }
+    display: none; }
+  .grid-container-etapas {
+    grid-template-columns: repeat(1, 1fr); }
+  .grid-container-etapas img {
+    width: 150px; } }
 
 .header {
   display: flex;
