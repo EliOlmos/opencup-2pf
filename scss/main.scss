@@ -127,6 +127,10 @@ footer{
 .color-texto-footer {
   color: white;
   font-size: 16px;
+  font-weight: bold;
+  &:hover{
+    color:$verde;
+  }
 }
 
 .row {
