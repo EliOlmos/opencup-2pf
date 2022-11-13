@@ -132,7 +132,7 @@ font-family: 'Roboto Serif', serif;*/
     flex-direction: column;
     font-weight: bold;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 10px;
     color: white;
     font-size: 25px;
@@ -140,7 +140,7 @@ font-family: 'Roboto Serif', serif;*/
     text-shadow: #9ac339 0.1em 0.1em 0.2em; }
   .grid-container-index .carousel-item {
     float: center;
-    padding: 30px;
+    padding: 20px;
     width: 100%;
     transition: transform 0.6s ease-in-out; }
     .grid-container-index .carousel-item img {
@@ -243,7 +243,7 @@ font-family: 'Roboto Serif', serif;*/
     .grid-container-etapas img:hover {
       position: relative;
       left: 20px;
-      transform: scale(2.2);
+      transform: scale(1.8, 1.8);
       transition: 0.5s; }
 
 .titulo-cuadro {
