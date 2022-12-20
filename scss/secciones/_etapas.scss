@@ -36,12 +36,9 @@
   --bs-table-striped-bg: rgba(34, 48, 109, 1) !important;
   --bs-table-striped-color: #ffff !important;
   font-weight: bold;
-
-
 }
 
 .grid-container-etapas {
-
   margin: 0 auto;
   padding: 10px;
   display: grid;
@@ -57,17 +54,17 @@
     height: 100%;
     width: 100%;
     object-fit: contain;
-  
+
     &:hover {
-      position:relative;
+      position: relative;
       left: 20px;
-      transform: scale(1.8 , 1.8);
+      transform: scale(1.8, 1.8);
       transition: 0.5s;
     }
   }
 }
 
-.titulo-cuadro{
+.titulo-cuadro {
   display: flex;
   flex-direction: column;
   font-weight: bold;
