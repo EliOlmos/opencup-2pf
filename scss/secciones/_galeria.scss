@@ -4,7 +4,7 @@
   align-items: center;
   justify-items: center;
   justify-content: center;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 10px;
   color: white;
   img {
@@ -37,6 +37,7 @@
       transform: scale(1.1, 1.1);
       transition: 0.3s;
     }
+    
   }
   h5{
     display: flex;
@@ -51,4 +52,5 @@
     text-align: center;
     text-shadow: rgb(154, 195, 57) 0.1em 0.1em 0.2em;
   }
+
 }
