@@ -27,6 +27,12 @@
   padding: 20px;
   justify-items: stretch;
   @include flex-grid-center;
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
   img {
     margin: 20px;
     object-fit: contain;
@@ -37,9 +43,8 @@
       transform: scale(1.1, 1.1);
       transition: 0.3s;
     }
-    
   }
-  h5{
+  h5 {
     display: flex;
     flex-direction: column;
     font-weight: bold;
@@ -52,5 +57,4 @@
     text-align: center;
     text-shadow: rgb(154, 195, 57) 0.1em 0.1em 0.2em;
   }
-
 }
