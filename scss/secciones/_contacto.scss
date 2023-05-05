@@ -13,11 +13,11 @@
   align-items: center;
   form {
     display: flex;
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 550px;
     flex-direction: column;
     flex-wrap: wrap;
-    }
+  }
 
   input {
     display: flex;
@@ -88,7 +88,6 @@
     background-color: #808080a6;
     box-shadow: inset 1px 1px 20px 4px;
   }
-  
 
   .button {
     display: flex;
@@ -104,17 +103,13 @@
     box-shadow: 3px -2px 4px 1px #222121;
     border: none;
   }
-  }
+}
 
-
-.appFlobi {
+.card-app {
   display: flex;
-  padding: 20px;
-  margin-bottom: 10px;
+  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
-  border: white 4px solid;
-  border-radius: 10px;
   text-align: center;
   align-content: flex-start;
   flex-direction: column;
