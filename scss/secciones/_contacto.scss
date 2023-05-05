@@ -105,22 +105,4 @@
   }
 }
 
-.card-app {
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  align-content: flex-start;
-  flex-direction: column;
-  max-width: 550px;
-  img {
-    border: white 2px solid;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.561);
-  }
-  h4 {
-    font-size: 20px;
-    color: white;
-  }
-}
+
