@@ -11,6 +11,8 @@
 
 @import "./secciones/_sponsors";
 
+@import "./secciones/_woman";
+
 @import "./secciones/_index";
 
 @import "./secciones/_galeria";
@@ -47,6 +49,8 @@
       }
     }
   }
+
+  
 
   .btn-outline-success {
     --bs-btn-color: #ffffff !important;

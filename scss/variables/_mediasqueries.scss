@@ -72,7 +72,7 @@
   }
 
   .grid-container-sponsors img {
-    width: 250px;
+    width: 100%;
   }
   .grid-container-galeria {
     grid-template-columns: repeat(2, 1fr);
@@ -203,7 +203,7 @@
       flex-direction: column;
       align-items: center;
       margin: 0 auto;
-  }
+    }
     img {
       margin: 20px;
       object-fit: contain;
@@ -232,6 +232,7 @@
 
   .grid-container-sponsors {
     grid-template-columns: repeat(1, 1fr);
+    width: 100%;
   }
 
   .tamanio-tabla {
@@ -264,7 +265,6 @@
       font-size: 16px !important;
     }
   }
-  
 
   .grid-container-index {
     margin-top: 20px;
@@ -328,11 +328,10 @@
     font-size: 14px;
   }
 
-
-.tamanio-tabla {
-  max-width: 350px;
-  font-size: 12px;
-}
+  .tamanio-tabla {
+    max-width: 350px;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 300px) {
@@ -373,28 +372,27 @@
     }
   }
   .grid-container-carrusel-galeria {
-      margin-bottom: 20px;
-      display: grid;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+    color: white;
+    img {
+      border-radius: 10px;
+      width: 250px;
+      height: 250px;
+      border: white 3px solid;
       align-items: center;
-      justify-items: center;
-      justify-content: center;
-      grid-template-columns: repeat(1, 1fr);
-      grid-row-gap: 10px;
-      color: white;
-      img {
-        border-radius: 10px;
-        width: 250px;
-        height: 250px;
-        border: white 3px solid;
-        align-items: center;
-      }
-      .carousel-inner {
-        position: relative;
-        width: 250px;
-        overflow: hidden;
-      }
     }
-  
+    .carousel-inner {
+      position: relative;
+      width: 250px;
+      overflow: hidden;
+    }
+  }
 
   .formulario {
     width: 270px;
@@ -485,7 +483,7 @@
       flex-direction: column;
       align-items: center;
       margin: 0 auto;
-  }
+    }
     img {
       margin: 20px;
       object-fit: contain;
