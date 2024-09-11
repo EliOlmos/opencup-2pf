@@ -52,7 +52,7 @@ font-family: 'Roboto Serif', serif;*/
 }
 .grid-container-sponsors .card {
   padding: 20px;
-  height: 20rem;
+  height: 15rem;
   align-items: center;
   --bs-card-bg: rgba(46, 43, 43, 0.212);
   --bs-card-border-color: white;
@@ -126,6 +126,20 @@ font-family: 'Roboto Serif', serif;*/
   transition: all 300ms;
 }
 
+.headerWoman a.nav-link {
+  margin: 0px;
+  padding: 5px;
+  color: gray;
+}
+.headerWoman a.nav-link:hover {
+  color: rgb(255, 114, 108);
+  font-weight: bold;
+  border: 2px solid rgb(255, 114, 108);
+  border-color: rgb(255, 114, 108);
+  border-radius: 5px;
+  background-color: rgb(255, 114, 108);
+}
+
 .headerWoman .btn-outline-success {
   --bs-btn-color: #ffffff !important;
   --bs-btn-border-color: white !important;
@@ -140,19 +154,6 @@ font-family: 'Roboto Serif', serif;*/
 }
 
 .headerWoman .nav-link :hover {
-  font-weight: bold;
-  border: 2px solid rgb(255, 114, 108);
-  border-color: rgb(255, 114, 108);
-  border-radius: 5px;
-  background-color: rgb(255, 114, 108);
-}
-
-.headerWoman a.nav-link {
-  margin: 0px;
-  padding: 5px;
-}
-.headerWoman a.nav-link:hover {
-  color: white;
   font-weight: bold;
   border: 2px solid rgb(255, 114, 108);
   border-color: rgb(255, 114, 108);
@@ -202,6 +203,108 @@ font-family: 'Roboto Serif', serif;*/
   margin-top: 20px;
 }
 
+ul {
+  list-style: none;
+}
+ul .fa-instagram {
+  color: white;
+}
+ul .fa-instagram:hover {
+  color: gray;
+}
+ul .fa-whatsapp {
+  color: white;
+}
+ul .fa-whatsapp :hover {
+  color: gray;
+}
+ul .fa-whatsapp:hover {
+  color: gray;
+}
+
+img {
+  margin-top: 10px;
+  height: 80px;
+  vertical-align: middle;
+}
+img:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 300ms;
+}
+
+footer .woman .fa-instagram:hover {
+  color: rgb(255, 114, 108) !important;
+}
+
+footer .woman .fa-whatsapp:hover {
+  color: rgb(255, 114, 108) !important;
+}
+
+.grid-container-sponsors-woman {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 15px;
+}
+.grid-container-sponsors-woman img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.grid-container-sponsors-woman .card {
+  padding: 20px;
+  height: 15rem;
+  align-items: center;
+  --bs-card-bg: rgba(46, 43, 43, 0.212);
+  --bs-card-border-color: white;
+  border-radius: 10px;
+}
+.grid-container-sponsors-woman .card:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 300ms;
+}
+.grid-container-sponsors-woman .card .card-body {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+}
+.grid-container-sponsors-woman .card .card-img,
+.grid-container-sponsors-woman .card .card-img-bottom,
+.grid-container-sponsors-woman .card .card-img-top {
+  max-height: 165px;
+}
+.grid-container-sponsors-woman .card .card-img img,
+.grid-container-sponsors-woman .card .card-img-bottom img,
+.grid-container-sponsors-woman .card .card-img-top img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.grid-container-sponsors-woman .card .card-img {
+  margin-top: 70px !important;
+}
+.grid-container-sponsors-woman .card .btn-primary {
+  --bs-btn-bg: rgb(255, 114, 108);
+  --bs-btn-border-color: rgb(255, 114, 108);
+  font-weight: bold;
+  font-size: 12px;
+}
+.grid-container-sponsors-woman .card .btn-primary:hover {
+  color: rgb(255, 114, 108);
+  background-color: white;
+  border-color: rgb(255, 114, 108);
+}
+
 footer {
   min-height: 10vh;
   z-index: 1;
@@ -228,50 +331,46 @@ h3 .color-texto-footerWoman:hover {
   align-items: center;
   z-index: 1;
 }
-
-.row {
+.colorfooterWoman .row {
   align-items: center;
 }
-
-.tituloMapaWoman {
+.colorfooterWoman .tituloMapaWoman {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.tituloMapaWoman h3 {
+.colorfooterWoman .tituloMapaWoman h3 {
   margin: 5px;
   padding: 5px;
   align-items: center;
   color: rgb(255, 114, 108);
   text-shadow: whitesmoke;
 }
-
-ul {
+.colorfooterWoman .woman ul {
   list-style: none;
 }
-ul .fa-instagram {
+.colorfooterWoman .woman ul .fa-instagram {
   color: rgb(255, 114, 108);
 }
-ul .fa-instagram:hover {
+.colorfooterWoman .woman ul .fa-instagram:hover {
   color: gray;
 }
-ul .fa-whatsapp {
+.colorfooterWoman .woman ul .fa-whatsapp {
   color: rgb(255, 114, 108);
 }
-ul .fa-whatsapp :hover {
+.colorfooterWoman .woman ul .fa-whatsapp :hover {
   color: gray;
 }
-ul .fa-whatsapp:hover {
+.colorfooterWoman .woman ul .fa-whatsapp:hover {
   color: gray;
 }
-
-img {
+.colorfooterWoman img {
   margin-top: 10px;
   height: 80px;
   vertical-align: middle;
 }
-img:hover {
+.colorfooterWoman img:hover {
   transform: scale(1.1, 1.1);
   transition: all 300ms;
 }
@@ -455,11 +554,7 @@ h3 {
   max-width: 550px;
 }
 .card-app img {
-  border: white 2px solid;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.561);
-  width: 100%;
-  height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -745,6 +840,10 @@ h3 {
   }
   .grid-container-etapas {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-container-sponsors-woman {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
   }
   .grid-container-etapas img {
     width: 250px;
@@ -1361,22 +1460,22 @@ a.nav-link:hover {
   text-shadow: whitesmoke;
 }
 
-ul {
+.woman ul {
   list-style: none;
 }
-ul .fa-instagram {
-  color: white;
+.woman ul .fa-instagram {
+  color: rgb(255, 114, 108);
 }
-ul .fa-instagram:hover {
+.woman ul .fa-instagram:hover {
   color: gray;
 }
-ul .fa-whatsapp {
-  color: white;
+.woman ul .fa-whatsapp {
+  color: rgb(255, 114, 108);
 }
-ul .fa-whatsapp :hover {
+.woman ul .fa-whatsapp :hover {
   color: gray;
 }
-ul .fa-whatsapp:hover {
+.woman ul .fa-whatsapp:hover {
   color: gray;
 }
 
@@ -1454,4 +1553,55 @@ footer img {
 footer img:hover {
   transform: scale(1.1, 1.1);
   transition: all 300ms;
+}
+
+.grid-container-sponsors-woman {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 15px;
+}
+.grid-container-sponsors-woman img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.grid-container-sponsors-woman .card {
+  padding: 20px;
+  height: 15rem;
+  align-items: center;
+  --bs-card-bg: rgba(46, 43, 43, 0.212);
+  --bs-card-border-color: white;
+  border-radius: 10px;
+}
+.grid-container-sponsors-woman .card:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 300ms;
+}
+.grid-container-sponsors-woman .card .card-body {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+}
+.grid-container-sponsors-woman .card .card-img,
+.grid-container-sponsors-woman .card .card-img-bottom,
+.grid-container-sponsors-woman .card .card-img-top {
+  max-height: 165px;
+}
+.grid-container-sponsors-woman .card .card-img img,
+.grid-container-sponsors-woman .card .card-img-bottom img,
+.grid-container-sponsors-woman .card .card-img-top img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
