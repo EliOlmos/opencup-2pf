@@ -1,19 +1,4 @@
-.tituloWoman-html {
-  color: rgb(255, 114, 108);
-}
-
-.sub-tituloWoman-html {
-  align-items: center;
-  text-align: center;
-  font-weight: bolder;
-  font-family: Roboto;
-  color: white;
-  font-size: 30px;
-  margin-top: 20px;
-}
-
-
-header .headerwoman {
+.headerWoman {
   display: flex;
   flex-wrap: wrap;
   background: linear-gradient(
@@ -30,68 +15,70 @@ header .headerwoman {
   align-items: center;
   z-index: 1;
   position: fixed;
-  .logowoman {
-    display: flex;
-    align-items: center;
-    margin: 0px 0px 10px;
-    img {
-      height: 80px;
-      vertical-align: middle;
-      &:hover {
-        transform: scale(1.1, 1.1);
-        transition: all 300ms;
-      }
-    }
-  }
-  .btn-outline-success {
-    --bs-btn-color: #ffffff !important;
-    --bs-btn-border-color: white !important;
-    --bs-btn-hover-bg: $verde !important;
+}
+.logoWoman {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 10px;
+  img {
+    height: 80px;
+    vertical-align: middle;
     &:hover {
-      font-weight: bold;
-      border: 2px solid $verde;
-      border-color: $verde;
-      border-radius: 5px;
-      background-color: $verde;
+      transform: scale(1.1, 1.1);
+      transition: all 300ms;
     }
   }
-  .nav-link :hover {
-    font-weight: bold;
-    border: 2px solid $verde;
-    border-color: $verde;
-    border-radius: 5px;
-    background-color: $verde;
-  }
-  a.nav-link {
-    margin: 0px;
-    padding: 5px;
-    &:hover {
-      color: white;
-      font-weight: bold;
-      border: 2px solid $verde;
-      border-color: $verde;
-      border-radius: 5px;
-      background-color: $verde;
-    }
-  }
-  .navbar-toggler .navbar-toggler-icon  {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28128, 185, 024, 0.70%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    width: 35px;
-    height: 35px;
-  }
-  .navbar-toggler {
-    border: none;
-    color: rgba(255, 255, 255, 0) !important;
-  }
-  .navbar-toggler button {
-    border: none;
-  }
-  
-
-  
 }
 
- h3 .h3Woman {
+.headerWoman a.nav-link {
+  margin: 0px;
+  padding: 5px;
+  color: gray;
+  &:hover {
+    color: rgb(255, 114, 108);
+    font-weight: bold;
+    border: 2px solid rgb(255, 114, 108);
+    border-color: rgb(255, 114, 108);
+    border-radius: 5px;
+    background-color: rgb(255, 114, 108);
+  }
+}
+
+
+.headerWoman .btn-outline-success {
+  --bs-btn-color: #ffffff !important;
+  --bs-btn-border-color: white !important;
+  --bs-btn-hover-bg: rgb(255, 114, 108) !important;
+  &:hover {
+    font-weight: bold;
+    border: 2px solid rgb(255, 114, 108);
+    border-color: rgb(255, 114, 108);
+    border-radius: 5px;
+    background-color: rgb(255, 114, 108);
+  }
+}
+.headerWoman .nav-link :hover {
+  font-weight: bold;
+  border: 2px solid rgb(255, 114, 108);
+  border-color: rgb(255, 114, 108);
+  border-radius: 5px;
+  background-color: rgb(255, 114, 108);
+}
+
+.headerWoman .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 114, 108, 0.70%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  width: 35px;
+  height: 35px;
+}
+.headerWoman .navbar-toggler {
+  border: none;
+  color: rgba(255, 255, 255, 0) !important;
+}
+.headerWoman .navbar-toggler button {
+  border: none;
+}
+
+.h3Woman {
   display: flex;
   flex-direction: column;
   font-weight: bold;
@@ -103,26 +90,152 @@ header .headerwoman {
   text-align: center;
   text-shadow: rgb(255, 114, 108) 0.1em 0.1em 0.2em;
 }
+.tituloWoman-html {
+  color: rgb(255, 114, 108);
+}
+.sub-tituloWoman-html {
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Roboto;
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
 
+ul {
+  list-style: none;
+
+  .fa-instagram {
+    color: white;
+  }
+  .fa-instagram:hover {
+    color: gray;
+  }
+
+  .fa-whatsapp {
+    color: white;
+    :hover {
+      color: gray;
+    }
+  }
+  .fa-whatsapp:hover {
+    color: gray;
+  }
+}
+img {
+  margin-top: 10px;
+  height: 80px;
+  vertical-align: middle;
+  &:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 300ms;
+  }
+}
+footer .woman .fa-instagram:hover {
+  color: rgb(255, 114, 108) !important;
+}
+
+footer .woman .fa-whatsapp:hover {
+  color: rgb(255, 114, 108) !important;
+}
+
+.grid-container-sponsors-woman {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 15px;
+  img {
+    object-fit: contain;
+  }
+  .card {
+    padding: 20px;
+    height: 15rem;
+    align-items: center;
+    --bs-card-bg: rgba(46, 43, 43, 0.212);
+    --bs-card-border-color: white;
+    border-radius: 10px;
+    &:hover {
+      transform: scale(1.1, 1.1);
+      transition: all 300ms;
+    }
+    .card-body {
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      font-size: 12px;
+    }
+    .card-img,
+    .card-img-bottom,
+    .card-img-top {
+      max-height: 165px;
+      img {
+        object-fit: cover;
+      }
+    }
+
+    .card-img{
+      margin-top: 70px !important;
+    }
+
+    .btn-primary {
+      --bs-btn-bg: rgb(255, 114, 108);
+      --bs-btn-border-color: rgb(255, 114, 108);
+      font-weight: bold;
+      font-size: 12px;
+      &:hover {
+        color: rgb(255, 114, 108);
+        background-color: white;
+        border-color: rgb(255, 114, 108);
+      }
+    }
+  }
+}
 
 
 
 footer {
   min-height: 10vh;
   z-index: 1;
-  .color-texto-footerWoman {
-    color: rgba(103,103,106,1);
-    font-size: 16px;
-    font-weight: bold;
-    &:hover {
-      color: whitesmoke;
-    }
-    
+}
+h3 .color-texto-footerWoman {
+  color: rgb(255, 114, 108);
+  font-size: 16px;
+  font-weight: bold;
+  &:hover {
+    color: whitesmoke;
   }
+}
+.colorfooterWoman {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    90deg,
+    rgba(175, 175, 181, 1) 0%,
+    rgba(207, 207, 210, 1) 45%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  min-height: 10vh;
+  width: 100%;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  align-items: center;
+  z-index: 1;
 
   .row {
     align-items: center;
-    
   }
 
   .tituloMapaWoman {
@@ -134,21 +247,23 @@ footer {
       margin: 5px;
       padding: 5px;
       align-items: center;
+      color: rgb(255, 114, 108);
+      text-shadow: whitesmoke;
     }
   }
-  ul {
+  .woman ul {
     list-style: none;
 
     .fa-instagram {
-      color: white;
+      color: rgb(255, 114, 108);
     }
     .fa-instagram:hover {
       color: gray;
     }
 
     .fa-whatsapp {
-      color: white;
-      :hover{
+      color: rgb(255, 114, 108);
+      :hover {
         color: gray;
       }
     }

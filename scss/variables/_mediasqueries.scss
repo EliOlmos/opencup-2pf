@@ -169,6 +169,11 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .grid-container-sponsors-woman {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
   .grid-container-etapas img {
     width: 250px;
     &:hover {
@@ -234,6 +239,7 @@
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
   }
+
 
   .tamanio-tabla {
     max-width: 450px;
